@@ -38,7 +38,7 @@ predicted log_house_price_of_unit_area = -587.2630 + 0.1376 * transaction_date -
 * Longitude is the only feature that is not significant. So, I tried removing it from the model. When removed, the R-squared drops to 0.718, and the adjusted R-squared increases to 0.713 since there is one less feature. Due to the fact that the change in effectiveness of the model is so small, I choose to leave the longitude in the model because it helps with the interpretation - both the latitude and longitude make up location and it does not make a whole lot of sense to include one and not the other.
 
 Residual results:
-![residual_results.png](https://github.com/zvance1/DATA601-HW1/blob/master/images/residual_results.png)
+![residual_results.png](https://github.com/zvance1/DATA602-HW1/blob/master/images/residual_results.png)
 * Analyzing the residual plot, we can tell that we have generated a good model since there are no patterns in the residuals. They are generally random. The reason I went with the log of the house price of unit area is because when originally looking at the residual plot prior to taking the log, there was a non-constant variance of error terms - as the predicted value increased, the variance also seemed to increase.
 
 # Project Info
